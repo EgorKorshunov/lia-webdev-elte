@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="alternate stylesheet" href="css/style2.css" title="bigger font size" />
+    <title>Hero suggestions – Life in Arena</title>
+</head>
+<body>
+    <div><a id="skip-to-content" href="#main-content">Jump to main content</a></div>
+    
+    <div id="header">
+        <div class="container">
+            <div id="logo">
+                <a href="#"><img src="img/logo.png" alt="Life in Arena"/></a>
+            </div>
+            <div id="top-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="monsters.html">Bosses</a></li>
+                    <li class="current-page"><a href="ideas.html">Ideas</a></li>
+                </ul>
+            </div>
+            <a id="stylesheet-button" href="#" onclick="changeCSS();">Larger font mode</a>
+        </div>
+    </div>
+    <div class="content container" id="main-content">
+        <div class="main table-container">
+            <h1>Share your ideas of a new hero!</h1>
+            <form id="idea-form" action="mailto:korshunoffegor@yandex.ru">
+                <div class="mbd">
+                    <label class="mbl" for="heroname">Hero name:</label>
+                    <input type="text" id="heroname" name="heroname" />
+                </div>
+                <div class="mbd">
+                    <p class="mbl">Primary attribute:</p>
+                    <input type="radio" id="strength" name="primary-attribute" value="strength" />
+                    <label for="strength">Strength</label>
+                    <input type="radio" id="agility" name="primary-attribute" value="agility" />
+                    <label for="agility">Agility</label>
+                    <input type="radio" id="intelligence" name="primary-attribute" value="intelligence" />
+                    <label for="intelligence">Intelligence</label> <br />
+                </div>
+                <div class="mbd">
+                    <label class="mbl" for="description">Hero abilities:</label>
+                    <textarea rows="20" cols="100" name="description" id="description"></textarea> <br />
+                </div>
+                <div class="mbd">
+                    <label for="post-hero" class="cb">Post your idea in blog
+                        <input id="post-hero" type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="mbd">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div id="bot-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="monsters.html">Bosses</a></li>
+                    <li class="current-page"><a href="ideas.html">Ideas</a></li>
+                </ul>
+            </div>
+            <p>Copyright &copy; 2020 Life in Arena</p>
+        </div>    
+    </div>
+</body>
+</html>
